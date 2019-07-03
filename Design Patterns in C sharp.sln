@@ -9,6 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		..\Creational.Builder.Builder.cs = ..\Creational.Builder.Builder.cs
 		..\Creational.Builder.BuilderInheritance.cs = ..\Creational.Builder.BuilderInheritance.cs
+		..\ExerciseAnswers.cs = ..\ExerciseAnswers.cs
 		..\SOLID.DIP.cs = ..\SOLID.DIP.cs
 		..\SOLID.ISP.cs = ..\SOLID.ISP.cs
 		..\SOLID.LSP.cs = ..\SOLID.LSP.cs
