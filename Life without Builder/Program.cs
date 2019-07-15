@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Console;
 
 namespace Life_without_Builder
 {
@@ -16,6 +17,23 @@ namespace Life_without_Builder
             sb.Append(hello);
             sb.Append("</p>");
             Console.WriteLine(sb);
+
+            var words = new[]
+            {
+                "hello", "world"
+
+            };
+            sb.Clear();
+            sb.Append("<ul>");
+            foreach (var word in words)
+            {
+                sb.AppendFormat("<li>{0}</li>", word);
+
+            }
+            sb.Append("</ul>");
+            WriteLine(sb);
+            ReadKey();
+
         }
     }
 }
