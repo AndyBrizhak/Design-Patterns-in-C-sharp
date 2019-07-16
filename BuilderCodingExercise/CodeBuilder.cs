@@ -8,27 +8,18 @@ namespace BuilderCodingExercise
 {
    public class CodeBuilder
    {
-       public string ClassName/*, FieldName, FieldType*/;
+       public string ClassName;
+      static Dictionary<string, string> fieldClass = new Dictionary<string, string>();
 
-        Dictionary<string, string> fieldClass = new Dictionary<string, string>();
-        //public List<fieldClass> Elements = new List<fieldClass>();
-        // public struct fieldClass
-        //{
-        //    public string FieldName;
-        //    public string FieldType;
-
-        //     public fieldClass(string fieldName, string fieldType)
-        //     {
-        //         FieldName = fieldName;
-        //         FieldType = fieldType;
-        //     }
-        // } 
-        private const int indentSize = 1;
-        
+       public CodeBuilder AddField(string NameField, string TypeField)
+       {
+            fieldClass.Add(NameField, TypeField);
+           return this;
+       }
 
         
 
-       private string ToStringImpl(int indent)
+       private string ToStringImpl()
        {
            var sb = new StringBuilder();
             //var i = new string(' ', indentSize * indent);
@@ -64,7 +55,7 @@ namespace BuilderCodingExercise
 
         public override string ToString()
         {
-            return ToStringImpl(0);
+            return ToStringImpl();
         }
     }
 }
