@@ -8,15 +8,25 @@ namespace BuilderCodingExercise
 {
    public class CodeBuilder
    {
-       public string ClassName, FieldName, TypeName;
-       private const int indentSize = 1;
+       public string ClassName/*, FieldName, FieldType*/;
 
-        public CodeBuilder(string className, string fieldName, string typeName)
-        {
-            ClassName = className ?? throw new ArgumentNullException(nameof(className));
-            FieldName = fieldName ?? throw new ArgumentNullException(nameof(fieldName));
-            TypeName = typeName ?? throw new ArgumentNullException(nameof(typeName));
-        }
+        Dictionary<string, string> fieldClass = new Dictionary<string, string>();
+        //public List<fieldClass> Elements = new List<fieldClass>();
+        // public struct fieldClass
+        //{
+        //    public string FieldName;
+        //    public string FieldType;
+
+        //     public fieldClass(string fieldName, string fieldType)
+        //     {
+        //         FieldName = fieldName;
+        //         FieldType = fieldType;
+        //     }
+        // } 
+        private const int indentSize = 1;
+        
+
+        
 
        private string ToStringImpl(int indent)
        {
@@ -24,6 +34,7 @@ namespace BuilderCodingExercise
             //var i = new string(' ', indentSize * indent);
             //sb.Append($"{i}<{Name}>\n");
             sb.Append($"public class {ClassName}\n");
+
            sb.Append($"public {ClassName}\n");
             //if (!string.IsNullOrWhiteSpace(Text))
             //{
