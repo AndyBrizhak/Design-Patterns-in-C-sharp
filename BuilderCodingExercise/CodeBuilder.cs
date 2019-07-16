@@ -33,9 +33,21 @@ namespace BuilderCodingExercise
            var sb = new StringBuilder();
             //var i = new string(' ', indentSize * indent);
             //sb.Append($"{i}<{Name}>\n");
-            sb.Append($"public class {ClassName}\n");
-
-           sb.Append($"public {ClassName}\n");
+           sb.Append($"public class {ClassName}\n");
+           sb.Append("{");
+           sb.AppendLine();
+           foreach (var field in fieldClass)
+           {
+               var name = field.Key;
+               var type = field.Value;
+               sb.Append($"public ");
+               sb.Append(type);
+               sb.Append($" {name} ;\n");
+           }
+           sb.Append("}");
+           sb.AppendLine();
+         
+         
             //if (!string.IsNullOrWhiteSpace(Text))
             //{
             //    sb.Append(new string(' ', indentSize * (indent + 1)));
