@@ -11,7 +11,12 @@ namespace BuilderCodingExercise
        public string ClassName;
       static Dictionary<string, string> fieldClass = new Dictionary<string, string>();
 
-       public CodeBuilder AddField(string NameField, string TypeField)
+        public CodeBuilder(string className)
+        {
+            ClassName = className;
+        }
+
+        public CodeBuilder AddField(string NameField, string TypeField)
        {
             fieldClass.Add(NameField, TypeField);
            return this;
@@ -37,20 +42,8 @@ namespace BuilderCodingExercise
            }
            sb.Append("}");
            sb.AppendLine();
-         
-         
-            //if (!string.IsNullOrWhiteSpace(Text))
-            //{
-            //    sb.Append(new string(' ', indentSize * (indent + 1)));
-            //    sb.Append(Text);
-            //    sb.Append("\n");
-            //}
-
-            //foreach (var e in Elements)
-            //    sb.Append(e.ToStringImpl(indent + 1));
-
-            //sb.Append($"{i}</{Name}>\n");
             return sb.ToString();
+            //return this;
        }
 
         public override string ToString()

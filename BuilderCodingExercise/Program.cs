@@ -11,7 +11,10 @@ namespace BuilderCodingExercise
         static void Main(string[] args)
         {
             var cb = new CodeBuilder("Person").AddField("Name", "string").AddField("Age", "int");
-            //Console.WriteLine(cb);
+            var str = cb.ToString();
+
+            Console.WriteLine(cb);
+            Console.ReadKey();
         }
     }
 }
