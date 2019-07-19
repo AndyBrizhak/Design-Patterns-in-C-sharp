@@ -38,6 +38,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IHotDrink.cs" />
     <Compile Include="Point.cs" />
     <Compile Include="PointFactory.cs" />
     <Compile Include="Program.cs" />
