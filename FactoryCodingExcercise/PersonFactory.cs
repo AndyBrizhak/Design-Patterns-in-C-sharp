@@ -1,5 +1,8 @@
 namespace FactoryCodingExcercise
 {
+    /// <summary>
+    /// лллл
+    /// </summary>
     public class PersonFactory
     {
         private static int _index = 0;
