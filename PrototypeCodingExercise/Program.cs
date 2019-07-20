@@ -1,4 +1,6 @@
-﻿namespace PrototypeCodingExercise
+﻿using System;
+
+namespace PrototypeCodingExercise
 {
     public interface IPrototype<T>
     {
@@ -18,6 +20,11 @@
         {
             return new Point(X,Y);
         }
+
+        public override string ToString()
+        {
+            return $"{nameof(X)}: {X}, {nameof(Y)}: {Y}";
+        }
     }
     
     public class Line : IPrototype<Line>
@@ -34,12 +41,20 @@
           {
             return new Line(Start.DeepCopy(), End.DeepCopy());
           }
+
+          public override string ToString()
+          {
+              return $"{nameof(Start)}: {Start}, {nameof(End)}: {End}";
+          }
         }
     
     internal class Program
     {
         public static void Main(string[] args)
         {
+           var line1 = new Line(start: new Point(0,0), end: new Point(1,1));
+           Console.WriteLine(line1);
+           Console.ReadKey();
         }
     }
 }
