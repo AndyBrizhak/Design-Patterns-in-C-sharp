@@ -55,6 +55,25 @@ namespace PrototypeCodingExercise
            var line1 = new Line(start: new Point(0,0), end: new Point(1,1));
            Console.WriteLine(line1);
            Console.ReadKey();
+
+           var line2 = line1.DeepCopy();
+           Console.WriteLine(line2);
+           Console.ReadKey();
+           
+           line2.Start.X = 2;
+           line2.Start.Y = 2;
+           line2.End.X = 3;
+           line2.End.Y = 3;
+           
+           
+           
+           Console.WriteLine(line1);
+           Console.WriteLine(line2);
+           Console.ReadKey();
+           
+           
+           
+
         }
     }
 }
