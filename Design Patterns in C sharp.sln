@@ -19,6 +19,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		..\Creational.Factories.AbstractFactory.cs = ..\Creational.Factories.AbstractFactory.cs
 		..\ExerciseAnswersFabr.cs = ..\ExerciseAnswersFabr.cs
 		..\Creational.Prototype.ICloneableIsBad.cs = ..\Creational.Prototype.ICloneableIsBad.cs
+		..\Creational.Prototype.CopyConstructors.cs = ..\Creational.Prototype.CopyConstructors.cs
+		..\Creational.Prototype.CopyThroughSerialization.cs = ..\Creational.Prototype.CopyThroughSerialization.cs
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderInheritance", "BuilderInheritance\BuilderInheritance.csproj", "{B9D0A10B-2D7F-4BBD-AF40-DCCAF4EBE4F2}"
@@ -32,6 +34,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{4BA38C72-ACB8-4CCD-8822-ACC2F48FA2BF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryCodingExcercise", "FactoryCodingExcercise\FactoryCodingExcercise.csproj", "{CD60CDC5-F158-47D8-8364-60DF6B176502}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypeCodingExercise", "PrototypeCodingExercise\PrototypeCodingExercise.csproj", "{012FD686-7C66-417D-8AD4-099710250D5E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -67,6 +71,10 @@ Global
 		{CD60CDC5-F158-47D8-8364-60DF6B176502}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD60CDC5-F158-47D8-8364-60DF6B176502}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD60CDC5-F158-47D8-8364-60DF6B176502}.Release|Any CPU.Build.0 = Release|Any CPU
+		{012FD686-7C66-417D-8AD4-099710250D5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{012FD686-7C66-417D-8AD4-099710250D5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{012FD686-7C66-417D-8AD4-099710250D5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{012FD686-7C66-417D-8AD4-099710250D5E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
