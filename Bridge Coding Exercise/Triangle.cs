@@ -6,7 +6,7 @@ namespace Bridge_Coding_Exercise
         
         public override void Draw()
         {
-            throw new System.NotImplementedException();
+//            throw new System.NotImplementedException();
         }
 
         public Triangle(IRenderer renderer, string name) : base(renderer)
