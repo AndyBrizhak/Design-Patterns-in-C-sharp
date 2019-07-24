@@ -31,6 +31,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		..\Bridge.ExerciseAnswers.cs = ..\Bridge.ExerciseAnswers.cs
 		..\Structural.Composite.GeometricShapes.cs = ..\Structural.Composite.GeometricShapes.cs
 		..\Structural.Composite.NeuralNetworks.cs = ..\Structural.Composite.NeuralNetworks.cs
+		..\Structural.Decorator.CodeBuilder.cs = ..\Structural.Decorator.CodeBuilder.cs
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderInheritance", "BuilderInheritance\BuilderInheritance.csproj", "{B9D0A10B-2D7F-4BBD-AF40-DCCAF4EBE4F2}"
