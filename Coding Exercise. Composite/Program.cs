@@ -12,6 +12,7 @@ namespace Coding_Exercise._Composite
             otherValues.Add(22);
             otherValues.Add(33);
             var sum = new List<IValueContainer> {singleValue, otherValues}.Sum();
+            var s = new SingleValue();
             Console.WriteLine(sum);
             Console.ReadKey();
         }

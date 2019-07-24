@@ -6,7 +6,7 @@ namespace Coding_Exercise._Composite
     {
         public static int Sum(this List<IValueContainer> containers)
               {
-                int result = 0;
+                var result = 0;
                 foreach (var c in containers)
                 foreach (var i in c)
                   result += i;
