@@ -30,6 +30,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		..\Structural.Bridge.Bridge.cs = ..\Structural.Bridge.Bridge.cs
 		..\Bridge.ExerciseAnswers.cs = ..\Bridge.ExerciseAnswers.cs
 		..\Structural.Composite.GeometricShapes.cs = ..\Structural.Composite.GeometricShapes.cs
+		..\Structural.Composite.NeuralNetworks.cs = ..\Structural.Composite.NeuralNetworks.cs
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderInheritance", "BuilderInheritance\BuilderInheritance.csproj", "{B9D0A10B-2D7F-4BBD-AF40-DCCAF4EBE4F2}"
@@ -49,6 +50,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter.Coding.Exercise", "Adapter.Coding.Exercise\Adapter.Coding.Exercise.csproj", "{3B5D9185-FE10-4A3D-AFC7-E6A61B4441A8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge Coding Exercise", "Bridge Coding Exercise\Bridge Coding Exercise.csproj", "{F26090CE-43C6-48E8-972B-173C7B68376B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coding Exercise. Composite", "Coding Exercise. Composite\Coding Exercise. Composite.csproj", "{C8DDD7A0-E84E-480B-87D9-D15381BD1597}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -96,6 +99,10 @@ Global
 		{F26090CE-43C6-48E8-972B-173C7B68376B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F26090CE-43C6-48E8-972B-173C7B68376B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F26090CE-43C6-48E8-972B-173C7B68376B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8DDD7A0-E84E-480B-87D9-D15381BD1597}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8DDD7A0-E84E-480B-87D9-D15381BD1597}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8DDD7A0-E84E-480B-87D9-D15381BD1597}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8DDD7A0-E84E-480B-87D9-D15381BD1597}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
