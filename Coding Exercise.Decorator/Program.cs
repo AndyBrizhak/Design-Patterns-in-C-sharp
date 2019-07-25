@@ -7,8 +7,11 @@ namespace Coding_Exercise.Decorator
         public static void Main(string[] args)
         {
             var dragon = new Dragon();
-            dragon.Age = 3;
-            Console.WriteLine(dragon);
+            dragon.Age = 1;
+            
+            
+            Console.WriteLine(dragon.Crawl());
+            Console.WriteLine(dragon.Fly());
             Console.ReadKey();
         }
     }

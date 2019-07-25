@@ -1,5 +1,8 @@
 namespace Coding_Exercise.Decorator
 {
+    /// <summary>
+    /// Class mixt Bird and Lizard
+    /// </summary>
     public class Dragon       // no need for interfaces
     {
       private Bird bird = new Bird();
