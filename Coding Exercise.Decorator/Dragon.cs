@@ -1,7 +1,10 @@
 namespace Coding_Exercise.Decorator
 {
-    public class Dragon
+    public class Dragon       // no need for interfaces
     {
+      private Bird bird = new Bird();
+      private Lizard lizard = new Lizard();
+      
         public int Age
              {
                // todo :)
@@ -9,7 +12,7 @@ namespace Coding_Exercise.Decorator
        
              public string Fly()
              {
-               // todo
+               bird.Fly();
              }
        
              public string Crawl()
