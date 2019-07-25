@@ -57,6 +57,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge Coding Exercise", "B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coding Exercise. Composite", "Coding Exercise. Composite\Coding Exercise. Composite.csproj", "{C8DDD7A0-E84E-480B-87D9-D15381BD1597}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coding Exercise.Decorator", "Coding Exercise.Decorator\Coding Exercise.Decorator.csproj", "{3B95C032-AA23-4961-84D2-12679693DE62}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -107,6 +109,10 @@ Global
 		{C8DDD7A0-E84E-480B-87D9-D15381BD1597}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8DDD7A0-E84E-480B-87D9-D15381BD1597}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8DDD7A0-E84E-480B-87D9-D15381BD1597}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B95C032-AA23-4961-84D2-12679693DE62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B95C032-AA23-4961-84D2-12679693DE62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B95C032-AA23-4961-84D2-12679693DE62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B95C032-AA23-4961-84D2-12679693DE62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
