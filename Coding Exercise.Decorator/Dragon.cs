@@ -4,20 +4,27 @@ namespace Coding_Exercise.Decorator
     {
       private Bird bird = new Bird();
       private Lizard lizard = new Lizard();
-      
-        public int Age
+      private int age;
+
+      public int Age
+      {
+          get { return age; }
+          set
+          {
+              age = value;
+              bird.Age = value;
+              lizard.Age = value;
+          }
+      }
+
+      public string Fly()
              {
-               // todo :)
-             }
-       
-             public string Fly()
-             {
-               bird.Fly();
+              return bird.Fly();
              }
        
              public string Crawl()
              {
-               // todo
+               return lizard.Crawl();
              } 
     }
 }
