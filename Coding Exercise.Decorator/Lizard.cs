@@ -1,7 +1,9 @@
 namespace Coding_Exercise.Decorator
 {
     public class Lizard
-    {
+    {/// <summary>
+     /// Age
+     /// </summary>
         public int Age { get; set; }
               
               public string Crawl()
