@@ -17,12 +17,11 @@ namespace Coding_Exercise.Facade
 
             do
             {
-                for (int i = 3; i < size; i++)
+                for (int i = 0; i < size; ++i)
                 {
+                    sq = new List<List<int>>();
                     var generation = generator.Generate(size);
                     sq.Add(generation);
-//                    var split = splitter.Split(sq);
-//                    var ver = verifier.Verify(split);
                 }
             } while (!verifier.Verify(splitter.Split(sq)));
             return sq;
