@@ -71,6 +71,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coding Exercise.Facade", "C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coding Exercise. Flyweight", "Coding Exercise. Flyweight\Coding Exercise. Flyweight.csproj", "{B0637982-6164-4CAC-BFC6-BE8D08A7BE64}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coding Exercise. ResponsiblePerson", "Coding Exercise. ResponsiblePerson\Coding Exercise. ResponsiblePerson.csproj", "{10E8F5B5-F92F-4C1A-9C8B-A91315F57777}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -133,6 +135,10 @@ Global
 		{B0637982-6164-4CAC-BFC6-BE8D08A7BE64}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0637982-6164-4CAC-BFC6-BE8D08A7BE64}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0637982-6164-4CAC-BFC6-BE8D08A7BE64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10E8F5B5-F92F-4C1A-9C8B-A91315F57777}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10E8F5B5-F92F-4C1A-9C8B-A91315F57777}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10E8F5B5-F92F-4C1A-9C8B-A91315F57777}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10E8F5B5-F92F-4C1A-9C8B-A91315F57777}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
