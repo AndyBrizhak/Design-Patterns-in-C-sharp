@@ -15,7 +15,11 @@ namespace Coding_Exercise._Command
                     c.Success = true;
                     break;
                 case Command.Action.Withdraw:
-                    
+                    if (Balance>=c.Amount)
+                    {
+                        c.Success = true;
+                        Balance -= c.Amount;
+                    }
                     break;
                 default:
                     throw new ArgumentOutOfRangeException();
