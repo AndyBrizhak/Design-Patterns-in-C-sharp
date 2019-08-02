@@ -1,0 +1,38 @@
+using System.Collections.Generic;
+
+namespace Behavioral.Mediator.ChatRoom
+{
+    public class Person
+    {
+        public string Name;
+        public ChatRoom Room;
+        private List<string> chatLog = new List<string>();
+
+        public Person(string name)
+        {
+            Name = name;
+        }
+
+        public void Receive(string sender, string message)
+        {
+            string s = $"{sender}: '{message}'";
+            WriteLine($"[{Name}'s chat session] {s}");
+            chatLog.Add(s);
+        }
+
+        private void WriteLine(string s)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void Say(string message)
+        {
+            Room.Broadcast(Name, message);
+        }
+
+        public void PrivateMessage(string who, string message)
+        {
+            Room.Message(Name, who, message);
+        }
+    }
+}
