@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 
 namespace Behavioral.Mediator.ChatRoom
@@ -16,14 +17,11 @@ namespace Behavioral.Mediator.ChatRoom
         public void Receive(string sender, string message)
         {
             string s = $"{sender}: '{message}'";
-            WriteLine($"[{Name}'s chat session] {s}");
+            Console.WriteLine($"[{Name}'s chat session] {s}");
             chatLog.Add(s);
         }
 
-        private void WriteLine(string s)
-        {
-            throw new System.NotImplementedException();
-        }
+       
 
         public void Say(string message)
         {
