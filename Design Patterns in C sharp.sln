@@ -92,6 +92,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RxEventBroker", "RxEventBro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavioral.MediatrDemo", "Behavioral.MediatrDemo\Behavioral.MediatrDemo.csproj", "{4CA022EE-74E9-401E-A235-FCD594CC4FB8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavioral.Memento", "Behavioral.Memento\Behavioral.Memento.csproj", "{31F817ED-87C6-4CF1-AD74-6B1B04F31C63}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -182,6 +184,10 @@ Global
 		{4CA022EE-74E9-401E-A235-FCD594CC4FB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CA022EE-74E9-401E-A235-FCD594CC4FB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CA022EE-74E9-401E-A235-FCD594CC4FB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31F817ED-87C6-4CF1-AD74-6B1B04F31C63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31F817ED-87C6-4CF1-AD74-6B1B04F31C63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31F817ED-87C6-4CF1-AD74-6B1B04F31C63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31F817ED-87C6-4CF1-AD74-6B1B04F31C63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
