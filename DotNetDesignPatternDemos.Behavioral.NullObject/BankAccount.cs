@@ -1,3 +1,5 @@
+using JetBrains.Annotations;
+
 namespace DotNetDesignPatternDemos.Behavioral.NullObject
 {
     public class BankAccount
@@ -5,7 +7,7 @@ namespace DotNetDesignPatternDemos.Behavioral.NullObject
         private ILog log;
         private int balance;
 
-        public BankAccount(ILog log)
+        public BankAccount([CanBeNull]ILog log)
         {
             this.log = log;
         }
