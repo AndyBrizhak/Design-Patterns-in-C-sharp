@@ -6,6 +6,7 @@ namespace DotNetDesignPatternDemos.Behavioral.Observer
     {
         public void CatchACold()
         {
+           
             FallsIll?.Invoke(this,
                 new FallsIllEventArgs { Address = "123 London Road" });
         }

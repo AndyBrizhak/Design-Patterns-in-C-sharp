@@ -102,6 +102,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavioral.NullObject", "Be
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetDesignPatternDemos.Behavioral.Observer", "DotNetDesignPatternDemos.Behavioral.Observer\DotNetDesignPatternDemos.Behavioral.Observer.csproj", "{D5BDFB1F-7BF8-4240-A7AF-E3C1D5C27AB9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavioral.Observer.WeakEventPattern", "Behavioral.Observer.WeakEventPattern\Behavioral.Observer.WeakEventPattern.csproj", "{2176A213-9192-4207-8826-23CDBC068752}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -212,6 +214,10 @@ Global
 		{D5BDFB1F-7BF8-4240-A7AF-E3C1D5C27AB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5BDFB1F-7BF8-4240-A7AF-E3C1D5C27AB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5BDFB1F-7BF8-4240-A7AF-E3C1D5C27AB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2176A213-9192-4207-8826-23CDBC068752}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2176A213-9192-4207-8826-23CDBC068752}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2176A213-9192-4207-8826-23CDBC068752}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2176A213-9192-4207-8826-23CDBC068752}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
