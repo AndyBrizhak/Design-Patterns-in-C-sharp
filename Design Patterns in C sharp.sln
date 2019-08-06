@@ -104,6 +104,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetDesignPatternDemos.Be
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavioral.Observer.WeakEventPattern", "Behavioral.Observer.WeakEventPattern\Behavioral.Observer.WeakEventPattern.csproj", "{2176A213-9192-4207-8826-23CDBC068752}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RxDemos", "RxDemos\RxDemos.csproj", "{4D88B98C-B120-4236-BB8A-A3C598FA86C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer.Coding.Exercise", "Observer.Coding.Exercise\Observer.Coding.Exercise.csproj", "{25DBE5E4-B64D-41AD-BA1B-39FDF9C2BE84}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -218,6 +222,14 @@ Global
 		{2176A213-9192-4207-8826-23CDBC068752}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2176A213-9192-4207-8826-23CDBC068752}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2176A213-9192-4207-8826-23CDBC068752}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D88B98C-B120-4236-BB8A-A3C598FA86C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D88B98C-B120-4236-BB8A-A3C598FA86C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D88B98C-B120-4236-BB8A-A3C598FA86C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D88B98C-B120-4236-BB8A-A3C598FA86C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25DBE5E4-B64D-41AD-BA1B-39FDF9C2BE84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25DBE5E4-B64D-41AD-BA1B-39FDF9C2BE84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25DBE5E4-B64D-41AD-BA1B-39FDF9C2BE84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25DBE5E4-B64D-41AD-BA1B-39FDF9C2BE84}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
