@@ -114,6 +114,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetDesignPatternDemos.Be
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavioral.State.Stateless", "Behavioral.State.Stateless\Behavioral.State.Stateless.csproj", "{C93C0F94-355E-418C-B2B3-6162683C75F5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavioral.Strategy.Dynamic", "Behavioral.Strategy.Dynamic\Behavioral.Strategy.Dynamic.csproj", "{01433636-FC96-4670-A7A7-454FBC6E3097}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -248,6 +250,10 @@ Global
 		{C93C0F94-355E-418C-B2B3-6162683C75F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C93C0F94-355E-418C-B2B3-6162683C75F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C93C0F94-355E-418C-B2B3-6162683C75F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01433636-FC96-4670-A7A7-454FBC6E3097}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01433636-FC96-4670-A7A7-454FBC6E3097}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01433636-FC96-4670-A7A7-454FBC6E3097}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01433636-FC96-4670-A7A7-454FBC6E3097}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
