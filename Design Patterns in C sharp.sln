@@ -110,6 +110,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer.Coding.Exercise", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavioral.State.Handmade", "Behavioral.State.Handmade\Behavioral.State.Handmade.csproj", "{D95BB47F-2326-4EF8-9D93-B2D8F9323C72}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetDesignPatternDemos.Behavioral.State", "DotNetDesignPatternDemos.Behavioral.State\DotNetDesignPatternDemos.Behavioral.State.csproj", "{C6068D0E-BDE9-4A1F-9C9B-8BDA6D549EFD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -236,6 +238,10 @@ Global
 		{D95BB47F-2326-4EF8-9D93-B2D8F9323C72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D95BB47F-2326-4EF8-9D93-B2D8F9323C72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D95BB47F-2326-4EF8-9D93-B2D8F9323C72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6068D0E-BDE9-4A1F-9C9B-8BDA6D549EFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6068D0E-BDE9-4A1F-9C9B-8BDA6D549EFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6068D0E-BDE9-4A1F-9C9B-8BDA6D549EFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6068D0E-BDE9-4A1F-9C9B-8BDA6D549EFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
