@@ -10,11 +10,13 @@ namespace Behavioral.Strategy.Dynamic
             tp.SetOutputFormat(OutputFormat.Markdown);
             tp.AppendList(new []{"foo", "bar", "baz"});
             Console.WriteLine(tp);
+            Console.ReadKey();
 
             tp.Clear();
             tp.SetOutputFormat(OutputFormat.Html);
             tp.AppendList(new[] { "foo", "bar", "baz" });
             Console.WriteLine(tp);
+              Console.ReadKey();
         }
     }
 }
