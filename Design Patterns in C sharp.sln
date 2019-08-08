@@ -124,6 +124,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavioral.TemplateMethod",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavioral.Visitor.Intrusive", "Behavioral.Visitor.Intrusive\Behavioral.Visitor.Intrusive.csproj", "{BD6CDC7B-5ABD-4B84-A396-B934AC5154D8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavioral.Visitor.Reflective", "Behavioral.Visitor.Reflective\Behavioral.Visitor.Reflective.csproj", "{4F756592-93D5-4AB5-8184-B8D1B4935211}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -278,6 +280,10 @@ Global
 		{BD6CDC7B-5ABD-4B84-A396-B934AC5154D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD6CDC7B-5ABD-4B84-A396-B934AC5154D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD6CDC7B-5ABD-4B84-A396-B934AC5154D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F756592-93D5-4AB5-8184-B8D1B4935211}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F756592-93D5-4AB5-8184-B8D1B4935211}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F756592-93D5-4AB5-8184-B8D1B4935211}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F756592-93D5-4AB5-8184-B8D1B4935211}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
