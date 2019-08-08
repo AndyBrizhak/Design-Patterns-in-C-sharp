@@ -6,7 +6,8 @@ namespace Behavioral.Visitor.Reflective
 {
     public static class ExpressionPrinter
     {
-        private static Dictionary<Type, Action<Expression, StringBuilder>> actions = new Dictionary<Type, Action<Expression, StringBuilder>>
+        private static Dictionary<Type, Action<Expression, StringBuilder>> actions 
+            = new Dictionary<Type, Action<Expression, StringBuilder>>
         {
             [typeof(DoubleExpression)] = (e, sb) =>
             {
@@ -24,12 +25,12 @@ namespace Behavioral.Visitor.Reflective
             }
         };
 
-        public static void Print2(Expression e, StringBuilder sb)
+        public static void Print(Expression e, StringBuilder sb)
         {
             actions[e.GetType()](e, sb);
         }
 
-        public static void Print(Expression e, StringBuilder sb)
+        /*public static void Print(Expression e, StringBuilder sb)
         {
             if (e is DoubleExpression de)
             {
@@ -46,6 +47,6 @@ namespace Behavioral.Visitor.Reflective
             }
             // breaks open-closed principle
             // will work incorrectly on missing case
-        }
+        }*/
     }
 }
