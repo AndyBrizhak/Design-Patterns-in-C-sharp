@@ -130,6 +130,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavioral.Visitor.Classic"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavioral.Visitor.Dynamic", "Behavioral.Visitor.Dynamic\Behavioral.Visitor.Dynamic.csproj", "{AC69C571-17DB-4E41-8A7E-8054E078213C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visitor.Dynamic", "Visitor.Dynamic\Visitor.Dynamic.csproj", "{AAEA41CE-64FA-4D3F-8ECD-1E010814DEE3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -296,6 +298,10 @@ Global
 		{AC69C571-17DB-4E41-8A7E-8054E078213C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC69C571-17DB-4E41-8A7E-8054E078213C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC69C571-17DB-4E41-8A7E-8054E078213C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAEA41CE-64FA-4D3F-8ECD-1E010814DEE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAEA41CE-64FA-4D3F-8ECD-1E010814DEE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAEA41CE-64FA-4D3F-8ECD-1E010814DEE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAEA41CE-64FA-4D3F-8ECD-1E010814DEE3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
