@@ -136,6 +136,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavioral.Visitor.Acyclic"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavioral.Visitor.Exercise", "Behavioral.Visitor.Exercise\Behavioral.Visitor.Exercise.csproj", "{3D78E7D0-36E5-4C34-9753-67F0B54EA52F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structural.Adapter.str", "Structural.Adapter.str\Structural.Adapter.str.csproj", "{A3917CE8-E18D-4E80-9609-717894CEC725}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -314,6 +316,10 @@ Global
 		{3D78E7D0-36E5-4C34-9753-67F0B54EA52F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D78E7D0-36E5-4C34-9753-67F0B54EA52F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D78E7D0-36E5-4C34-9753-67F0B54EA52F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3917CE8-E18D-4E80-9609-717894CEC725}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3917CE8-E18D-4E80-9609-717894CEC725}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3917CE8-E18D-4E80-9609-717894CEC725}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3917CE8-E18D-4E80-9609-717894CEC725}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
