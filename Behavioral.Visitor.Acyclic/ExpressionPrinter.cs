@@ -10,6 +10,11 @@ namespace Behavioral.Visitor.Acyclic
     {
         StringBuilder sb = new StringBuilder();
 
+        public void Visit(Expression obj)
+        {
+           
+        }
+        
         public void Visit(DoubleExpression obj)
         {
             sb.Append(obj.Value);
