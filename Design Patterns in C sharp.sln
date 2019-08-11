@@ -140,6 +140,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structural.Adapter.str", "S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bonus.Continuation.Passing.Style", "Bonus.Continuation.Passing.Style\Bonus.Continuation.Passing.Style.csproj", "{0E2CA8E5-099D-4548-BAD1-8FDEB7321765}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bonus.Lectures.Local.Inversion.ofControl", "Bonus.Lectures.Local.Inversion.ofControl\Bonus.Lectures.Local.Inversion.ofControl.csproj", "{056ECDDA-3891-40CC-98F8-972D9D0F19BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bonus.Beyond.Elvis.Operator", "Bonus.Beyond.Elvis.Operator\Bonus.Beyond.Elvis.Operator.csproj", "{7C26A491-D5AE-4ACA-B0A8-A4278A4D5437}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -326,6 +330,14 @@ Global
 		{0E2CA8E5-099D-4548-BAD1-8FDEB7321765}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E2CA8E5-099D-4548-BAD1-8FDEB7321765}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E2CA8E5-099D-4548-BAD1-8FDEB7321765}.Release|Any CPU.Build.0 = Release|Any CPU
+		{056ECDDA-3891-40CC-98F8-972D9D0F19BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{056ECDDA-3891-40CC-98F8-972D9D0F19BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{056ECDDA-3891-40CC-98F8-972D9D0F19BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{056ECDDA-3891-40CC-98F8-972D9D0F19BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C26A491-D5AE-4ACA-B0A8-A4278A4D5437}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C26A491-D5AE-4ACA-B0A8-A4278A4D5437}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C26A491-D5AE-4ACA-B0A8-A4278A4D5437}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C26A491-D5AE-4ACA-B0A8-A4278A4D5437}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
