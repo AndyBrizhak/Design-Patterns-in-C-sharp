@@ -138,6 +138,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavioral.Visitor.Exercise
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structural.Adapter.str", "Structural.Adapter.str\Structural.Adapter.str.csproj", "{A3917CE8-E18D-4E80-9609-717894CEC725}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bonus.Continuation.Passing.Style", "Bonus.Continuation.Passing.Style\Bonus.Continuation.Passing.Style.csproj", "{0E2CA8E5-099D-4548-BAD1-8FDEB7321765}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -320,6 +322,10 @@ Global
 		{A3917CE8-E18D-4E80-9609-717894CEC725}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3917CE8-E18D-4E80-9609-717894CEC725}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3917CE8-E18D-4E80-9609-717894CEC725}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E2CA8E5-099D-4548-BAD1-8FDEB7321765}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E2CA8E5-099D-4548-BAD1-8FDEB7321765}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E2CA8E5-099D-4548-BAD1-8FDEB7321765}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E2CA8E5-099D-4548-BAD1-8FDEB7321765}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
