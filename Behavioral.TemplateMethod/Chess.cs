@@ -2,6 +2,9 @@ using System;
 
 namespace Behavioral.TemplateMethod
 {
+    /// <summary>
+    /// +
+    /// </summary>
     public class Chess : Game
     {
         public Chess() : base(2)
