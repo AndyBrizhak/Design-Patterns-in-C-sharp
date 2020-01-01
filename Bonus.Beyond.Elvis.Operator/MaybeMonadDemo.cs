@@ -5,7 +5,7 @@ namespace Bonus.Beyond.Elvis.Operator
     public class MaybeMonadDemo
     {
         /// <summary>
-        /// +
+        /// ++
         /// </summary>
         /// <param name="p"></param>
         public void MyMethod(Person p)
