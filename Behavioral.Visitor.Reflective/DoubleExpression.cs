@@ -2,7 +2,7 @@ namespace Behavioral.Visitor.Reflective
 {
     
     /// <summary>
-    /// ++
+    /// +++
     /// </summary>
     public class DoubleExpression : Expression
     {
