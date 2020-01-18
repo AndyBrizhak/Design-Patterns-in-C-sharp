@@ -16,6 +16,11 @@ namespace DotNetDesignPatternDemos.Creational.Builder
     }
   }
 
+  
+  /// <summary>
+  /// _
+  /// </summary>
+  /// <typeparam name="SELF"></typeparam>
   abstract class PersonBuilder<SELF>
     where SELF : PersonBuilder<SELF>
   {
@@ -51,7 +56,7 @@ namespace DotNetDesignPatternDemos.Creational.Builder
   {
     static void Main(string[] args)
     {
-      var builder = new Builder();
+      var builder = new Dynamitey.Builder();
       var person = builder.WorksAsA("d").
       Console.WriteLine(person);
     }
