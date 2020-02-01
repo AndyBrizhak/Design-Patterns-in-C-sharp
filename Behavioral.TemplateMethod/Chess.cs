@@ -4,6 +4,7 @@ namespace Behavioral.TemplateMethod
 {
     /// <summary>
     /// +
+    /// +
     /// </summary>
     public class Chess : Game
     {
