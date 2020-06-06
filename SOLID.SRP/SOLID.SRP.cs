@@ -41,10 +41,10 @@ namespace DotNetDesignPatternDemos.SOLID.SRP
       
     }
 
-    public void Load(Uri uri)
-    {
+    //public void Load(Uri uri)
+    //{
       
-    }
+    //}
   }
 
   // handles the responsibility of persisting objects
@@ -69,7 +69,7 @@ namespace DotNetDesignPatternDemos.SOLID.SRP
       var p = new Persistence();
       var filename = @"c:\temp\journal.txt";
       p.SaveToFile(j, filename);
-      Process.Start(filename);
+      //Process.Start(filename);
     }
   }
 }
