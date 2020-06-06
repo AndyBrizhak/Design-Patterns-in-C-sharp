@@ -52,8 +52,8 @@ namespace DotNetDesignPatternDemos.SOLID.SRP
   {
     public void SaveToFile(Journal journal, string filename, bool overwrite = false)
     {
-      if (overwrite || !File.Exists(filename))
-        File.WriteAllText(filename, journal.ToString());
+      //if (overwrite || !File.Exists(filename))
+      //          File.WriteAllText(filename, journal.ToString());
     }
   }
 
