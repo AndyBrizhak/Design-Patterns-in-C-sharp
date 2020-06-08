@@ -36,7 +36,11 @@ namespace DotNetDesignPatternDemos.SOLID.SRP
       File.WriteAllText(filename, ToString());
     }
 
-    public void Load(string filename)
+    /// <summary>
+    /// Load anything information
+    /// </summary>
+    /// <param name="filename"></param>
+           public void Load(string filename)
     {
       
     }
