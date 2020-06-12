@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SOLID.SRP
 {
-    class Product
+    public class Product
     {
         public readonly string Name;
         public readonly Color Color;

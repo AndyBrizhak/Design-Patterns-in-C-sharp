@@ -37,8 +37,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AndSpecification.cs" />
+    <Compile Include="BetterFilter.cs" />
     <Compile Include="ColorSpecification.cs" />
     <Compile Include="CompositeSpecification.cs" />
+    <Compile Include="CriteriaExtensions.cs" />
+    <Compile Include="Demo.cs" />
     <Compile Include="IFilter.cs" />
     <Compile Include="OCP.cs" />
     <Compile Include="Product.cs" />

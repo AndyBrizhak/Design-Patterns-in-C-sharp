@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SOLID.SRP
 {
-    class SizeSpecification
+    public class SizeSpecification : Specification<Product>
     {
         private Size size;
 
