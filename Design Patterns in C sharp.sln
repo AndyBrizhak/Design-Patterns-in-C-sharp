@@ -1,12 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.539
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID.SRP", "SOLID.SRP\SOLID.SRP.csproj", "{F10D35E4-F900-46CB-B828-77A32BD18DE3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7FB49C15-3EBD-49C8-8268-8E3D7E476BCC}"
 	ProjectSection(SolutionItems) = preProject
+		..\ArrayBackedProperties.cs = ..\ArrayBackedProperties.cs
+		..\Behavioral.ChainOfResponsibility.BrokerChain.cs = ..\Behavioral.ChainOfResponsibility.BrokerChain.cs
+		..\Behavioral.ChainOfResponsibility.MethodChain.cs = ..\Behavioral.ChainOfResponsibility.MethodChain.cs
+		..\Behavioral.Command.Command.cs = ..\Behavioral.Command.Command.cs
+		..\Behavioral.Interpreter.Handmade.cs = ..\Behavioral.Interpreter.Handmade.cs
+		..\Behavioral.Iterator.TreeTraversal.cs = ..\Behavioral.Iterator.TreeTraversal.cs
+		..\Bridge.ExerciseAnswers.cs = ..\Bridge.ExerciseAnswers.cs
 		..\Creational.Builder.Builder.cs = ..\Creational.Builder.Builder.cs
 		..\Creational.Builder.BuilderFacets.cs = ..\Creational.Builder.BuilderFacets.cs
 		..\Creational.Builder.BuilderInheritance.cs = ..\Creational.Builder.BuilderInheritance.cs
@@ -18,8 +25,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		..\Creational.Singleton.Monostate.cs = ..\Creational.Singleton.Monostate.cs
 		..\Creational.Singleton.Singleton.cs = ..\Creational.Singleton.Singleton.cs
 		..\Creational.Singleton.SingletonInDI.cs = ..\Creational.Singleton.SingletonInDI.cs
+		..\ExerciseAnswers.Chain of Responsibility.cs = ..\ExerciseAnswers.Chain of Responsibility.cs
 		..\ExerciseAnswers.cs = ..\ExerciseAnswers.cs
 		..\ExerciseAnswersFabr.cs = ..\ExerciseAnswersFabr.cs
+		..\PropertyProxy.cs = ..\PropertyProxy.cs
 		..\SingletonExerciseAnswers.cs = ..\SingletonExerciseAnswers.cs
 		..\SOLID.DIP.cs = ..\SOLID.DIP.cs
 		..\SOLID.ISP.cs = ..\SOLID.ISP.cs
@@ -28,28 +37,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		..\Structural.Adapter.NoCaching.cs = ..\Structural.Adapter.NoCaching.cs
 		..\Structural.Adapter.WithCaching.cs = ..\Structural.Adapter.WithCaching.cs
 		..\Structural.Bridge.Bridge.cs = ..\Structural.Bridge.Bridge.cs
-		..\Bridge.ExerciseAnswers.cs = ..\Bridge.ExerciseAnswers.cs
 		..\Structural.Composite.GeometricShapes.cs = ..\Structural.Composite.GeometricShapes.cs
 		..\Structural.Composite.NeuralNetworks.cs = ..\Structural.Composite.NeuralNetworks.cs
-		..\Structural.Decorator.CodeBuilder.cs = ..\Structural.Decorator.CodeBuilder.cs
 		..\Structural.Decorator.AdapterDecorator.cs = ..\Structural.Decorator.AdapterDecorator.cs
-		..\Structural.Decorator.MultipleInheritance.cs = ..\Structural.Decorator.MultipleInheritance.cs
+		..\Structural.Decorator.CodeBuilder.cs = ..\Structural.Decorator.CodeBuilder.cs
 		..\Structural.Decorator.Decorator.cs = ..\Structural.Decorator.Decorator.cs
-		..\Structural.Flyweight.Users.cs = ..\Structural.Flyweight.Users.cs
+		..\Structural.Decorator.MultipleInheritance.cs = ..\Structural.Decorator.MultipleInheritance.cs
 		..\Structural.Facade.Exercise.cs = ..\Structural.Facade.Exercise.cs
 		..\Structural.Flyweight.TextFormatting.cs = ..\Structural.Flyweight.TextFormatting.cs
-		..\Structural.Proxy.ProtectionProxy.cs = ..\Structural.Proxy.ProtectionProxy.cs
-		..\PropertyProxy.cs = ..\PropertyProxy.cs
-		..\Structural.Proxy.ValueProxy.cs = ..\Structural.Proxy.ValueProxy.cs
-		..\Structural.Proxy.SoACompositeProxy.cs = ..\Structural.Proxy.SoACompositeProxy.cs
+		..\Structural.Flyweight.Users.cs = ..\Structural.Flyweight.Users.cs
 		..\Structural.Proxy.DynamicProxy.cs = ..\Structural.Proxy.DynamicProxy.cs
-		..\Behavioral.ChainOfResponsibility.MethodChain.cs = ..\Behavioral.ChainOfResponsibility.MethodChain.cs
-		..\Behavioral.ChainOfResponsibility.BrokerChain.cs = ..\Behavioral.ChainOfResponsibility.BrokerChain.cs
-		..\ExerciseAnswers.Chain of Responsibility.cs = ..\ExerciseAnswers.Chain of Responsibility.cs
-		..\Behavioral.Command.Command.cs = ..\Behavioral.Command.Command.cs
-		..\Behavioral.Interpreter.Handmade.cs = ..\Behavioral.Interpreter.Handmade.cs
-		..\Behavioral.Iterator.TreeTraversal.cs = ..\Behavioral.Iterator.TreeTraversal.cs
-		..\ArrayBackedProperties.cs = ..\ArrayBackedProperties.cs
+		..\Structural.Proxy.ProtectionProxy.cs = ..\Structural.Proxy.ProtectionProxy.cs
+		..\Structural.Proxy.SoACompositeProxy.cs = ..\Structural.Proxy.SoACompositeProxy.cs
+		..\Structural.Proxy.ValueProxy.cs = ..\Structural.Proxy.ValueProxy.cs
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderInheritance", "BuilderInheritance\BuilderInheritance.csproj", "{B9D0A10B-2D7F-4BBD-AF40-DCCAF4EBE4F2}"
@@ -138,11 +138,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavioral.Visitor.Exercise
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structural.Adapter.str", "Structural.Adapter.str\Structural.Adapter.str.csproj", "{A3917CE8-E18D-4E80-9609-717894CEC725}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bonus.Continuation.Passing.Style", "Bonus.Continuation.Passing.Style\Bonus.Continuation.Passing.Style.csproj", "{0E2CA8E5-099D-4548-BAD1-8FDEB7321765}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bonus.Continuation.Passing.Style", "Bonus.Continuation.Passing.Style\Bonus.Continuation.Passing.Style.csproj", "{0E2CA8E5-099D-4548-BAD1-8FDEB7321765}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bonus.Lectures.Local.Inversion.ofControl", "Bonus.Lectures.Local.Inversion.ofControl\Bonus.Lectures.Local.Inversion.ofControl.csproj", "{056ECDDA-3891-40CC-98F8-972D9D0F19BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bonus.Lectures.Local.Inversion.ofControl", "Bonus.Lectures.Local.Inversion.ofControl\Bonus.Lectures.Local.Inversion.ofControl.csproj", "{056ECDDA-3891-40CC-98F8-972D9D0F19BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bonus.Beyond.Elvis.Operator", "Bonus.Beyond.Elvis.Operator\Bonus.Beyond.Elvis.Operator.csproj", "{7C26A491-D5AE-4ACA-B0A8-A4278A4D5437}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bonus.Beyond.Elvis.Operator", "Bonus.Beyond.Elvis.Operator\Bonus.Beyond.Elvis.Operator.csproj", "{7C26A491-D5AE-4ACA-B0A8-A4278A4D5437}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID.LSP", "SOLID.LSP\SOLID.LSP.csproj", "{F020998C-7DB4-465E-841F-02754681F9C3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -338,6 +340,10 @@ Global
 		{7C26A491-D5AE-4ACA-B0A8-A4278A4D5437}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C26A491-D5AE-4ACA-B0A8-A4278A4D5437}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C26A491-D5AE-4ACA-B0A8-A4278A4D5437}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F020998C-7DB4-465E-841F-02754681F9C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F020998C-7DB4-465E-841F-02754681F9C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F020998C-7DB4-465E-841F-02754681F9C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F020998C-7DB4-465E-841F-02754681F9C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
